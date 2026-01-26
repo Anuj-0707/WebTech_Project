@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="ext.css">
+    <script src="func.js"></script>
+</head>
+<body>
+    <div id="cal">Calculator
+        <input type="text" id="display">
+        <div class="button_container">
+            <button id="button" onclick="curr_display='';document.querySelector('#display').value=curr_display;">c</button>
+            <button id="button" onclick="curr_display=curr_display+'1';document.querySelector('#display').value=curr_display;">1</button>
+
+            <button id="button" onclick="curr_display=curr_display+'2';document.querySelector('#display').value=curr_display;">2</button>
+
+            <button id="button" onclick="curr_display=curr_display+'+';document.querySelector('#display').value=curr_display;">+</button>
+
+            <button id="button" onclick="curr_display=curr_display+'3';document.querySelector('#display').value=curr_display;">3</button>
+
+            <button id="button" onclick="curr_display=curr_display+'4';document.querySelector('#display').value=curr_display;">4</button>
+
+            <button id="button" onclick="curr_display=curr_display+'-';document.querySelector('#display').value=curr_display;">-</button>
+
+            <button id="button" onclick="curr_display=curr_display+'5';document.querySelector('#display').value=curr_display;">5</button>
+
+            <button id="button" onclick="curr_display=curr_display+'6';document.querySelector('#display').value=curr_display;">6</button>
+
+            <button id="button" onclick="curr_display=curr_display+'*';document.querySelector('#display').value=curr_display;">*</button>
+
+            <button id="button" onclick="curr_display=curr_display+'7';document.querySelector('#display').value=curr_display;">7</button>
+
+            <button id="button" onclick="curr_display=curr_display+'8';document.querySelector('#display').value=curr_display;">8</button>
+
+            <button id="button" onclick="curr_display=curr_display+'/';document.querySelector('#display').value=curr_display;">/</button>
+
+            <button id="button" onclick="curr_display=curr_display+'9';document.querySelector('#display').value=curr_display;">9</button>
+
+            <button id="button" onclick="
+            let result = eval(curr_display);
+            curr_display=result;
+            document.querySelector('#display').value=curr_display;
+            ">=</button>
+
+            <button id="button" onclick="curr_display=curr_display+'0';document.querySelector('#display').value=curr_display;">0</button>
+
+            <button id="button" onclick="curr_display=curr_display+'.';document.querySelector('#display').value=curr_display;" style="font-size:xx-large;">.</button>
+        </div>
+    </div>
+    <!--<script>
+        let curr_display='';
+        document.querySelector('#display').value=curr_display;
+    </script>-->
+</body>
+</html>
