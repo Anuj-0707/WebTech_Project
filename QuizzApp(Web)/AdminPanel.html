@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Admin Panel</title>
+
+<link rel="stylesheet" href="AdminPanel.css">
+
+</head>
+
+
+<body>
+
+
+<header>
+
+<h1>Admin Panel - Quiz Timer App</h1>
+
+<a href="home.html" class="home-btn">Home</a>
+
+</header>
+
+
+
+<!-- TIMER SECTION -->
+
+<section class="timer-section">
+
+<h2>Set Quiz Timer</h2>
+
+<p>Enter quiz duration in minutes:</p>
+
+<input type="number" id="timerInput" placeholder="Example: 10">
+
+<button onclick="setTimer()">Set Timer</button>
+
+<p id="timerStatus"></p>
+
+</section>
+
+
+
+<!-- ADD QUESTION SECTION -->
+
+<section class="question-section">
+
+<h2>Add New Question</h2>
+
+<input type="text" id="question" placeholder="Enter Question">
+
+<input type="text" id="opt1" placeholder="Option 1">
+
+<input type="text" id="opt2" placeholder="Option 2">
+
+<input type="text" id="opt3" placeholder="Option 3">
+
+<input type="text" id="opt4" placeholder="Option 4">
+
+<input type="number" id="correct" placeholder="Correct Option Number (1-4)">
+
+<button onclick="addQuestion()">Add Question</button>
+
+</section>
+
+
+
+<!-- QUESTION LIST SECTION -->
+
+<section class="question-list">
+
+<h2>Saved Questions</h2>
+
+<p>Click the Delete button to remove any question.</p>
+
+<ul id="questionList"></ul>
+
+</section>
+
+
+
+<!-- OPTIONAL RESET BUTTON -->
+
+<section class="reset-section">
+
+<h2>Reset Quiz Database</h2>
+
+<p>This will restore the default 10 questions.</p>
+
+<button onclick="resetQuestions()">Reset Questions</button>
+
+</section>
+
+
+
+<script src="AdminPanel.js"></script>
+
+
+</body>
+
+</html>

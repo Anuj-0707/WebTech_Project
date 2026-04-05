@@ -1,0 +1,39 @@
+body{
+height:100vh;
+display:flex;
+justify-content:center;
+align-items:center;
+background:linear-gradient(120deg,skyblue,white);
+}
+#admin{
+    height: 400px;
+    width : 520px;
+    background-color: skyblue;
+    text-align: center;
+    border-radius: 15px;
+    border-color: #4facfe;
+    color: blue;
+}
+input{
+width:450px;
+padding:12px;
+margin:8px 0;
+border-radius:6px;
+border:1px solid #ccc;
+}
+#login-btn{
+    height: 40px;
+    width:100px;
+    background-color:#4facfe;
+    border-color: #4facfe;
+    color:white;
+    font-size: larger;
+    border-radius: 6px;
+}
+#login-btn:hover{
+    background-color: blue;
+}
+#error-msg{
+    color:red;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}

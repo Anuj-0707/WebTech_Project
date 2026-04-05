@@ -1,0 +1,205 @@
+
+/* PAGE STYLE */
+
+body{
+
+font-family: Arial, sans-serif;
+background:#f4f6f7;
+margin:0;
+
+}
+
+
+/* HEADER */
+
+header{
+
+background:#2c3e50;
+color:white;
+
+padding:20px 40px;
+
+display:flex;
+justify-content:space-between;
+align-items:center;
+
+}
+
+
+.home-btn{
+
+color:white;
+text-decoration:none;
+font-size:18px;
+
+transition:0.3s;
+
+}
+
+.home-btn:hover{
+
+color:#f39c12;
+
+}
+
+
+/* SECTION STYLE */
+
+section{
+
+background:white;
+
+margin:30px auto;
+padding:25px;
+
+border-radius:12px;
+
+width:70%;
+
+box-shadow:0 5px 12px rgba(0,0,0,0.15);
+
+}
+
+
+/* SECTION HEADINGS */
+
+section h2{
+
+margin-bottom:15px;
+color:#2c3e50;
+
+}
+
+
+/* INPUT FIELDS */
+
+input{
+
+display:block;
+
+margin:10px 0;
+
+padding:12px;
+
+width:320px;
+
+border-radius:6px;
+border:1px solid #ccc;
+
+font-size:15px;
+
+}
+
+
+/* NORMAL BUTTON */
+
+button{
+
+padding:10px 22px;
+
+background:#27ae60;
+color:white;
+
+border:none;
+border-radius:6px;
+
+cursor:pointer;
+
+font-size:15px;
+
+transition:0.3s;
+
+}
+
+button:hover{
+
+background:#1e8449;
+
+}
+
+
+/* QUESTION LIST */
+
+.question-list ul{
+
+list-style:none;
+padding:0;
+
+}
+
+
+/* QUESTION ITEM */
+
+li{
+
+background:#ecf0f1;
+
+margin:12px 0;
+padding:12px 15px;
+
+border-radius:8px;
+
+display:flex;
+justify-content:space-between;
+align-items:center;
+
+font-size:16px;
+
+}
+
+
+/* DELETE BUTTON STYLE */
+
+.delete-btn{
+
+background:#e74c3c;
+
+padding:6px 14px;
+
+border:none;
+
+border-radius:5px;
+
+color:white;
+
+font-size:14px;
+
+cursor:pointer;
+
+transition:0.3s;
+
+}
+
+.delete-btn:hover{
+
+background:#c0392b;
+
+}
+
+
+/* TIMER STATUS MESSAGE */
+
+#timerStatus{
+
+margin-top:10px;
+
+font-weight:bold;
+
+color:#27ae60;
+
+}
+
+
+/* RESET BUTTON SECTION */
+
+.reset-section button{
+
+background:#f39c12;
+
+}
+
+.reset-section button:hover{
+
+background:#d68910;
+
+}
